@@ -1,0 +1,29 @@
+html,
+body {
+  background-color: darkslategrey;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  margin: 8px;
+  padding: 8px;
+}
+
+button {
+  margin: 8px;
+  padding: 8px;
+}
+
+div {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 248px;
+}
