@@ -41,7 +41,7 @@ const Home = () => {
     )
 }
 
-export const getServerSideProps: GetServerSideProps = withSSRGuest(async (ctx) => {
+export const getServerSideProps = withSSRGuest(async (ctx) => {
     return {
         props: {},
     }
